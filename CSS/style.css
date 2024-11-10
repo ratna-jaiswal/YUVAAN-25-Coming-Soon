@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+.loading {
+  position: absolute !important;;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  /* background: #000; */
+  background: transparent !important;
+  /* z-index: 9999; */
+}
+
+.loading-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-size: 35px;
+}
+.loading-text span {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.loading-text span:nth-child(1) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0s infinite linear alternate;
+}
+.loading-text span:nth-child(2) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0.14s infinite linear alternate;
+}
+.loading-text span:nth-child(3) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0.28s infinite linear alternate;
+}
+.loading-text span:nth-child(4) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0.42s infinite linear alternate;
+}
+.loading-text span:nth-child(5) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0.56s infinite linear alternate;
+}
+.loading-text span:nth-child(6) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0.7s infinite linear alternate;
+}
+.loading-text span:nth-child(7) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0.84s infinite linear alternate;
+}
+.loading-text span:nth-child(8) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 0.98s infinite linear alternate;
+}
+.loading-text span:nth-child(9) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 1.12s infinite linear alternate;
+}
+.loading-text span:nth-child(10) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 1.26s infinite linear alternate;
+}
+.loading-text span:nth-child(11) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 1.4s infinite linear alternate;
+}
+.loading-text span:nth-child(12) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 1.54s infinite linear alternate;
+}
+.loading-text span:nth-child(13) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 1.68s infinite linear alternate;
+}
+.loading-text span:nth-child(14) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 1.82s infinite linear alternate;
+}
+.loading-text span:nth-child(15) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 1.96s infinite linear alternate;
+}
+.loading-text span:nth-child(16) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 2.1s infinite linear alternate;
+}
+.loading-text span:nth-child(17) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 2.24s infinite linear alternate;
+}
+.loading-text span:nth-child(18) {
+  filter: blur(0px);
+  animation: blur-text 0.5s 2.38s infinite linear alternate;
+}
+
+
+
+@keyframes blur-text {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(2px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

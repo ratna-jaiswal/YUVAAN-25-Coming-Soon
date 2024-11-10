@@ -1,0 +1,68 @@
+.right-navbar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    /* background: linear-gradient(135deg, #ff416c, #ff4b2b); */
+    background: radial-gradient(hsl(200,40%,20%), hsl(200,30%,6%));
+    padding: 15px 0;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 40px; /* Initial width for closed state */
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+.right-navbar:hover {
+    width: 150px; /* Expand on hover */
+}
+
+.right-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.right-navbar li {
+    margin: 20px 0;
+}
+
+.right-navbar a {
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s, padding-left 0.3s;
+    white-space: nowrap;
+}
+
+.right-navbar a i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #ffdedb;
+    transition: transform 0.3s ease;
+}
+
+.right-navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffdedb;
+    padding-left: 20px;
+}
+
+.right-navbar a:hover i {
+    transform: scale(1.2); /* Slight zoom effect on icon */
+}
+
+.right-navbar a span {
+    display: none; /* Hide text by default */
+}
+
+.right-navbar:hover a span {
+    display: inline; /* Show text on hover */
+    margin-left: 10px;
+}
+

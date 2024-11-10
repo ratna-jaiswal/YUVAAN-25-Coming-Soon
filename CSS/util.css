@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background: transparent;
+}
+
+/* Optional body background styling */
+body {
+    /* background: radial-gradient(hsl(200, 40%, 20%), hsl(200, 30%, 6%)); */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* fading animation */
+.loading-container {
+    transition: opacity 1s ease;
+}
+
+.fest-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fest-title {
+    font-size: 4rem;
+    font-family: 'YourDesignerFont', sans-serif;
+    color: #f50057;
+    margin-top: 1rem;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fest-title {
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

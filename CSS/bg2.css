@@ -1,0 +1,33 @@
+/* Reset the body's margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Ensures the body fills the entire viewport */
+    background-color: #1a1a1a;  /* Dark background color for contrast */
+    overflow: hidden;  /* Prevents scrollbars */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  #bg-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    z-index: -1; /* Keeps the background behind other content */
+    display: block;
+    pointer-events: none; /* Prevents the background from interfering with interactions */
+  }
+  
+  /* Optional: Content Styling */
+  h1 {
+    z-index: 1;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
